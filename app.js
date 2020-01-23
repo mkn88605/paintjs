@@ -54,7 +54,7 @@ function changeRange(event) {
 }
 
 function handleFill() {
-    //filling = false 따위가 중요한 이유!! 밑의 함수와 같은 일을 하게 해줌
+    //filling 변수가 중요한 이유 : changeBtn과 연결
     if (filling) {
         ctx.fillRect(0, 0, CANVAS_SIZE, CANVAS_SIZE);
     }
